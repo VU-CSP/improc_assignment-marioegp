@@ -12,10 +12,10 @@ Q1) What is the maximum intensity value in the [Differential interference contra
 A1) Put your answer here.  255
 
 Q2) What are the dimensions of the [Phase contrast](image_files/PhaseContrast.tif) file?  
-A2) Put your answer here in the form of (X, Y, BitDepth).  314x226, 69k
+A2)  314x226, 69k, 8 bit
 
 Q3) Which image has greater dynamic range of pixel intensities? Phase or DiffInt?  
-A3) Put your answer here.   DiffINt has a greater range (0-255)
+A3)  DiffINt has a greater range (0-255)
 
 #### *Task 2:*
 Open the file [Fluorescence_composite.tif](image_files/Fluorescence_composite.tif) and convert all the signal in the red channel to the blue channel, export the file as a JPG and upload it to this repository in the [image_files](image_files) directory with the name "Composite.jpg".  
@@ -35,7 +35,7 @@ Also save the resultant "Count Mask" image file with the name "Count_Mask_229461
 ![](image_files/Count_Mask_22946173.tif)  
 
 Q4) How many particles were detected?  
-A4) Put your answer here.  
+A4) 1417  
 
 You will do a first-pass assessment of the segmentation output by analyzing the size of the particles using Python...  
 
